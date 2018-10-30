@@ -2,6 +2,16 @@
 
 Serve FastAI models and get a web-based UI to test them out with a single line of code.
 
+![screenshot](https://i.imgur.com/TzZQZUs.jpg)
+
+## Installation
+
+Install with `pip`. Make sure you have `fastai` already installed.
+
+```
+pip install servefastai
+```
+
 ## Usage
 
 ```
