@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FastAI Model Serving</title>
+  <link rel="stylesheet" href="static/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="static/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="static/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h2 style="margin: 32px 0; text-align: center;">Upload Images</h2>
+    <div class="row">
+      <div class="offset-md-4 col-md-4">
+        <form action="/predict" method="post" enctype="multipart/form-data">
+
+          <div class="custom-file" style="margin-bottom: 32px">
+            <input type="file" name="files" multiple>
+          </div>
+
+
+          <input type="submit" value="Submit" name="submit" class="btn btn-primary">
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
