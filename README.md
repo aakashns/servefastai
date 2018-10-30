@@ -1,6 +1,6 @@
 # servefastai
 
-Serve FastAI models and get a web-based UI to test them out with a single line of code.
+Serve FastAI models and get a web-based UI to test them out with a single line of code. [Video Demo](https://github.com/aakashns/servefastai)
 
 ![screenshot](https://i.imgur.com/TzZQZUs.jpg)
 
