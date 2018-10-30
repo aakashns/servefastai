@@ -1,0 +1,4 @@
+include servefastai/static/*
+include servefastai/static/css/*
+include servefastai/static/js/*
+include servefastai/templates/*

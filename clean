@@ -1,0 +1,5 @@
+#! /bin/bash
+
+trash ./servefastai.egg-info
+trash ./dist
+trash ./build

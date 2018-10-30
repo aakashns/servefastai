@@ -9,7 +9,7 @@ Serve FastAI models and get a web-based UI to test them out with a single line o
 Install with `pip`. Make sure you have `fastai` already installed.
 
 ```
-pip install servefastai
+pip install servefastai --upgrade
 ```
 
 ## Usage
